@@ -217,6 +217,9 @@
 .map-image {
   display: block;
 }
+.main {
+  overflow-x: hidden;
+}
 .main-map {
   background: url(../img/map1.png);
   background-size: cover;
@@ -265,7 +268,7 @@
   margin-top: 65px;
   margin-left: 751px;
   height: 100px;
-  width: 50px;
+  width: 55px;
 }
 .other-map {
   background: url(../img/map2.png) no-repeat left / 350px,
@@ -735,7 +738,8 @@
     align-items: center;
   }
   .item-title {
-    margin-bottom: 7%;
+    margin-bottom: 3.5%;
+    margin-top: 3.5%;
   }
   .project {
     text-align: center;
@@ -888,5 +892,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+@media (max-width: 815px) {
+  .map-button7 {
+    display: none;
   }
 }
