@@ -42,13 +42,14 @@
 }
 .search-bar {
   display: flex;
-  max-width: 360px;
+  max-width: 348px;
   width: 100%;
   margin-top: 18px;
   margin-left: auto;
   margin-right: 40px;
 }
 .bar-button {
+  background: #ffffff;
   display: block;
   cursor: pointer;
   height: 30px;
@@ -607,11 +608,15 @@
 .about-hook {
   background: url(../img/about-bg2.png);
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 5%;
   margin-bottom: 7%;
   padding-top: 3%;
   padding-bottom: 3%;
+  max-width: 647px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .hook-name,
 .leader-name,
@@ -647,17 +652,26 @@
 .leaders,
 .leaders1 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 2%;
   margin-bottom: 3%;
-  margin-right: 5%;
+  max-width: 647px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .leaders-wrapper {
   display: flex;
   flex-direction: column;
 }
 .students {
-  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 647px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 6%;
 }
 .student-project {
@@ -672,11 +686,15 @@
 .burger-menu-button {
   display: none;
 }
+
 @media (max-width: 790px) {
   .bar {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .name {
+    margin-left: 0;
   }
   .site-title {
     width: 200px;
@@ -719,6 +737,10 @@
   }
   .student-name {
     font-size: 20px;
+  }
+  .about-content {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   /*burger-menu*/
@@ -848,6 +870,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 0;
   }
 }
