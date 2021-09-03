@@ -702,6 +702,9 @@
 .burger-menu-button {
   display: none;
 }
+.dotted-line {
+  overflow-x: hidden;
+}
 
 @media (max-width: 790px) {
   .bar {
@@ -759,7 +762,10 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-
+  .branch {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   /*burger-menu*/
 
   .burger-menu-button {
