@@ -661,10 +661,6 @@
   line-height: 17px;
   color: #000000;
 }
-.hook-information,
-.leader-information {
-  margin-left: 3%;
-}
 .leaders,
 .leaders1 {
   display: flex;
@@ -763,8 +759,8 @@
     padding-right: 15px;
   }
   .branch {
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   /*burger-menu*/
 
