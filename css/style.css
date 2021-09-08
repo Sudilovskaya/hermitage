@@ -149,6 +149,10 @@
   margin-top: 7px;
   margin-right: 8px;
 }
+.button-icon-active {
+  transform: rotate(180deg);
+  transition: 0.4s;
+}
 .button-group {
   display: flex;
   justify-content: space-between;
@@ -156,6 +160,8 @@
 }
 .button-item {
   flex-grow: 1;
+  border: none;
+  padding: 0;
 }
 .button {
   text-decoration: none;
@@ -167,7 +173,7 @@
   text-align: center;
   letter-spacing: -0.07em;
   display: block;
-  background: #fff;
+  background-color: #fff;
   cursor: pointer;
   padding: 20px 41px;
   user-select: none;
@@ -177,10 +183,18 @@
 .button:active {
   background-color: #0a6858;
   color: #fff;
+  background-image: url(../img/menu-dot.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
-.active {
+.current-menu-item {
   background: #0a6858;
+  color: #fff;
+  background-image: url(../img/menu-dot.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
+
 .footer-items {
   display: flex;
   justify-content: space-around;

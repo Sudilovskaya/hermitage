@@ -1,6 +1,7 @@
 $(document).ready(function (){
 var volumeButton = $(".volume-button");
 var menuButton = $(".button");
+
 //Input text click event 
 $("#text_field1").click(function()
 {
@@ -30,10 +31,10 @@ volumeButton.on('click', toggleModal);
 
 function toggleModal() { 
     $('.volume1-button').toggleClass('is-open');
+    $('.button-icon').toggleClass('button-icon-active');
   }
-menuButton.on('click', toggleModal1);
-
 });
+
 //бургер-меню
 const menuButton = document.querySelector(".burger-menu-button");
 const menu = document.querySelector(".opened-menu");
@@ -46,3 +47,14 @@ menuButton.addEventListener("click", ()=> {
 menuCloseButton.addEventListener("click", () => {
   menu.classList.remove("is-active");
 });
+
+/*$( document ).ready(function() {
+  if(localStorage.getItem('isCliked')) {
+      $('.button').toggleClass('current-menu-item');
+  };
+  $('.button').on('click',function() {
+     $('.button').toggleClass('current-menu-item');
+    // set the value upon clicking
+    localStorage.setItem('isCliked', true)
+  });
+});*/
