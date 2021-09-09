@@ -47,14 +47,3 @@ menuButton.addEventListener("click", ()=> {
 menuCloseButton.addEventListener("click", () => {
   menu.classList.remove("is-active");
 });
-
-/*$( document ).ready(function() {
-  if(localStorage.getItem('isCliked')) {
-      $('.button').toggleClass('current-menu-item');
-  };
-  $('.button').on('click',function() {
-     $('.button').toggleClass('current-menu-item');
-    // set the value upon clicking
-    localStorage.setItem('isCliked', true)
-  });
-});*/

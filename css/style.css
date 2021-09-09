@@ -193,6 +193,17 @@
   background-image: url(../img/menu-dot.png);
   background-repeat: no-repeat;
   background-position: center bottom;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.07em;
+  display: block;
+  cursor: pointer;
+  padding: 20px 41px;
+  user-select: none;
 }
 
 .footer-items {
@@ -780,6 +791,7 @@
   .leader-information {
     margin-left: 0;
   }
+
   /*burger-menu*/
 
   .burger-menu-button {
@@ -860,6 +872,9 @@
   .overlay-content a:hover,
   .overlay-content a:active {
     background-color: #0a6858;
+    background-image: url(../img/menu-dot.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
   }
   /*burger-menu*/
 
