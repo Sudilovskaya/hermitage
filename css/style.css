@@ -34,8 +34,8 @@
   color: #fff;
   text-decoration: none;
   display: block;
-  font-family: "Montserrat", sans-serif;
-  font-weight: normal;
+  font-family: "Hermitage Ingeborg Text";
+  font-weight: 100;
   line-height: 27px;
   padding: 0;
   display: block;
@@ -646,8 +646,10 @@
   margin-left: 16%;
   margin-bottom: 0;
 }
-.about-hook {
+.hook-wrapper {
   background: url(../img/about-bg2.png);
+}
+.about-hook {
   display: flex;
   justify-content: flex-start;
   margin-top: 5%;
