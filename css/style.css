@@ -3,6 +3,12 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Hermirage Ingebord Text";
+  src: url(../fonts/HermitageIngeborgText.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 .img {
   max-width: 100%;
 }
@@ -34,7 +40,7 @@
   color: #fff;
   text-decoration: none;
   display: block;
-  font-family: "Hermitage Ingeborg Text";
+  font-family: "Hermirage Ingebord Text";
   font-weight: 100;
   line-height: 27px;
   padding: 0;
